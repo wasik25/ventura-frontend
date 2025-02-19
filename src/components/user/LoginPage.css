@@ -1,0 +1,86 @@
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.login-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #A5CAD2, #E89B9D, #D66B6D); /* Gradient background */
+    border: none; /* Remove solid border */
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #D66B6D, #E89B9D, #A5CAD2); /* Reversed gradient */
+    transform: scale(1.05); /* Slight hover effect */
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.login-footer a {
+    background: linear-gradient(135deg, #A5CAD2, #E89B9D, #D66B6D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #555;
+}
