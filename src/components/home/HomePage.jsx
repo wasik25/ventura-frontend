@@ -48,7 +48,6 @@ const HomePage = () => {
     setFilters({ size: "", color: "" });
     setSortBy("");
   };
-
   return (
     <>
       <Header />

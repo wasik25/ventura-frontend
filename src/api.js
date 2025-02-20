@@ -1,8 +1,11 @@
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 
+export const BASE_URL = "https://ventura-backend.vercel.app"
+//import.meta.env.VITE_BASE_URL || "http://127.0.0.1:8000";
+
 const api = axios.create({
-  baseURL: "https://ventura-backend.vercel.app",
+  baseURL: BASE_URL,
 });
 
 api.interceptors.request.use(

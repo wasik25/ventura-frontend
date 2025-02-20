@@ -1,4 +1,4 @@
-import { BASE_URL } from "../../api";
+import { BASE_URL } from "../../api.js";
 import styles from "./Homecard.module.css";
 import { Link } from "react-router-dom";
 const HomeCard = ({ product }) => {
